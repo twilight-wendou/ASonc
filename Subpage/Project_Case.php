@@ -1,19 +1,20 @@
 <?php
 /*
  * @Author: Twilight 
- * @Date: 2019-04-08 11:24:41 
- * @Last Modified by: Twilight
- * @Last Modified time: 2019-04-08 12:33:34
+ * @Date: 2019-04-08 14:25:32 
+ * @Last Modified by:   Twilight 
+ * @Last Modified time: 2019-04-08 14:25:32 
  */
-// 艾森首页 页面
+// 艾森项目案例 页面
+
    header("content-type: text/html; charset=utf8");/* 头文件设置 */
 ?>
 
 
 <!-- 路径基址 -->
-<base href="./">
+<base href="../">
 <!-- 网页名 -->
-<title>ASonc</title>
+<title>ASonc Project Case</title>
 
 <!-- 引入头文件 head -->
 <?php include_once('./HTML/head.html'); ?>
