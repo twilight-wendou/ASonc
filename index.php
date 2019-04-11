@@ -5,7 +5,7 @@
  * @Last Modified by: Twilight
  * @Last Modified time: 2019-04-08 12:33:34
  */
-// 艾森首页 页面
+/*************** 艾森首页 页面 ****************/
    header("content-type: text/html; charset=utf8");/* 头文件设置 */
 ?>
 
@@ -26,7 +26,7 @@
 
 
 <!-- 引入单独HTML文件 body -->
-<!-- <?php include_once('./HTML/xxx.html'); ?> -->
+<?php include_once('./HTML/main.html'); ?>
 
 
 <!-- 引入脚部文件 footer -->

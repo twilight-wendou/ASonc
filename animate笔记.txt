@@ -1,0 +1,21 @@
+需要引入的文件
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="css/animate.min.css" rel="stylesheet">
+<script src="js/wow.min.js"></script>
+
+
+只要是想要动的元素都放到一个容器里
+<div class="wow fadeInLeftBig animated" data-wow-duration="1500ms" data-wow-delay="200ms">
+	<h1>LayaFlash 引擎</h1>
+	<p>让Flash技术变成开发HTML5产品的利器</p>
+</div>
+data-wow-delay 执行的开始时间
+data-wow-duration  执行的持续时间
+
+
+页面底部的JS代码
+<script>
+if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+    new WOW().init();
+}
+</script>

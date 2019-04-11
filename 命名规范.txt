@@ -1,131 +1,130 @@
-ĞÂÔö HTML5 ±êÇ©
+æ–°å¢ HTML5 æ ‡ç­¾:
 
-
-<article>  ¶¨ÒåÒ»¸öÎÄÕÂÇøÓò
-<header>   ¶¨ÒåÍ·²¿
-<footer>   ¶¨ÒåÒ³½Å
-<section>   ±êÇ©¶¨ÒåÎÄµµÖĞµÄ½Ú£¨section¡¢Çø¶Î£©¡£±ÈÈçÕÂ½Ú¡¢Ò³Ã¼¡¢Ò³½Å»òÎÄµµÖĞµÄÆäËû²¿·Ö¡£
-<nav>   µ¼º½±êÇ©
-<aside>  ¶¨ÒåÒ³ÃæµÄ²à±ßÀ¸ÄÚÈİ
-audio  ÒôÆµ±êÇ©  <audio src="Â·¾¶ºÍÎÄ¼şÃû.mp4" controls="controls"></audio>
-video  ÊÓÆµ±êÇ©  <video src="Â·¾¶ºÍÎÄ¼şÃû.mp4" controls="controls"></video>
+<article>  å®šä¹‰ä¸€ä¸ªæ–‡ç« åŒºåŸŸ
+<header>   å®šä¹‰å¤´éƒ¨
+<footer>   å®šä¹‰é¡µè„š
+<section>   æ ‡ç­¾å®šä¹‰æ–‡æ¡£ä¸­çš„èŠ‚ï¼ˆsectionã€åŒºæ®µï¼‰ã€‚æ¯”å¦‚ç« èŠ‚ã€é¡µçœ‰ã€é¡µè„šæˆ–æ–‡æ¡£ä¸­çš„å…¶ä»–éƒ¨åˆ†ã€‚
+<nav>   å¯¼èˆªæ ‡ç­¾
+<aside>  å®šä¹‰é¡µé¢çš„ä¾§è¾¹æ å†…å®¹
+audio  éŸ³é¢‘æ ‡ç­¾  <audio src="è·¯å¾„å’Œæ–‡ä»¶å.mp4" controls="controls"></audio>
+video  è§†é¢‘æ ‡ç­¾  <video src="è·¯å¾„å’Œæ–‡ä»¶å.mp4" controls="controls"></video>
 
 ========================================
-ÏÂÃæÊÇÃüÃû¹æ·¶
+ä¸‹é¢æ˜¯å‘½åè§„èŒƒ
 
-Í·£ºheader¡¡¡¡
-ÄÚÈİ£ºcontent/container¡¡¡¡
-Î²£ºfooter¡¡¡¡
-µ¼º½£ºnav¡¡¡¡
-²àÀ¸£ºsidebar
-À¸Ä¿£ºcolumn¡¡¡¡
-Ò³ÃæÍâÎ§¿ØÖÆÕûÌå²¼¾Ö¿í¶È£ºwrapper¡¡¡¡
-×óÓÒÖĞ£ºleft right center¡¡¡¡
-µÇÂ¼Ìõ£ºloginbar¡¡¡¡
-±êÖ¾£ºlogo¡¡¡¡
-¹ã¸æ£ºbanner¡¡¡¡
-Ò³ÃæÖ÷Ìå£ºmain¡¡¡¡
-ÈÈµã£ºhot¡¡¡¡
-ĞÂÎÅ£ºnews
-ÏÂÔØ£ºdownload¡¡¡¡
-×Óµ¼º½£ºsubnav¡¡¡¡
-²Ëµ¥£ºmenu¡¡¡¡
-×Ó²Ëµ¥£ºsubmenu¡¡¡¡
-ËÑË÷£ºsearch¡¡¡¡
-ÓÑÇéÁ´½Ó£ºfriendlink¡¡¡¡
-Ò³½Å£ºfooter¡¡¡¡
-°æÈ¨£ºcopyright¡¡¡¡
-¹ö¶¯£ºscroll¡¡¡¡
-ÄÚÈİ£ºcontent
-±êÇ©Ò³£ºtab
-ÎÄÕÂÁĞ±í£ºlist
-ÌáÊ¾ĞÅÏ¢£ºmsg
-Ğ¡¼¼ÇÉ£ºtips
-À¸Ä¿±êÌâ£ºtitle
-¼ÓÈë£ºjoinus
-Ö¸ÄÏ£ºguild
-·şÎñ£ºservice
-×¢²á£ºregsiter
-×´Ì¬Ì¬£ºstatus
-Í¶Æ±£ºvote
-ºÏ×÷»ï°é£ºpartner
-ÌØÊâµÄ£ºspecific
+å¤´ï¼šheaderã€€ã€€
+å†…å®¹ï¼šcontent/containerã€€ã€€
+å°¾ï¼šfooterã€€ã€€
+å¯¼èˆªï¼šnavã€€ã€€
+ä¾§æ ï¼šsidebar
+æ ç›®ï¼šcolumnã€€ã€€
+é¡µé¢å¤–å›´æ§åˆ¶æ•´ä½“å¸ƒå±€å®½åº¦ï¼šwrapperã€€ã€€
+å·¦å³ä¸­ï¼šleft right centerã€€ã€€
+ç™»å½•æ¡ï¼šloginbarã€€ã€€
+æ ‡å¿—ï¼šlogoã€€ã€€
+å¹¿å‘Šï¼šbannerã€€ã€€
+é¡µé¢ä¸»ä½“ï¼šmainã€€ã€€
+çƒ­ç‚¹ï¼šhotã€€ã€€
+æ–°é—»ï¼šnews
+ä¸‹è½½ï¼šdownloadã€€ã€€
+å­å¯¼èˆªï¼šsubnavã€€ã€€
+èœå•ï¼šmenuã€€ã€€
+å­èœå•ï¼šsubmenuã€€ã€€
+æœç´¢ï¼šsearchã€€ã€€
+å‹æƒ…é“¾æ¥ï¼šfriendlinkã€€ã€€
+é¡µè„šï¼šfooterã€€ã€€
+ç‰ˆæƒï¼šcopyrightã€€ã€€
+æ»šåŠ¨ï¼šscrollã€€ã€€
+å†…å®¹ï¼šcontent
+æ ‡ç­¾é¡µï¼štab
+æ–‡ç« åˆ—è¡¨ï¼šlist
+æç¤ºä¿¡æ¯ï¼šmsg
+å°æŠ€å·§ï¼štips
+æ ç›®æ ‡é¢˜ï¼štitle
+åŠ å…¥ï¼šjoinus
+æŒ‡å—ï¼šguild
+æœåŠ¡ï¼šservice
+æ³¨å†Œï¼šregsiter
+çŠ¶æ€æ€ï¼šstatus
+æŠ•ç¥¨ï¼švote
+åˆä½œä¼™ä¼´ï¼špartner
+ç‰¹æ®Šçš„ï¼šspecific
 
-×¢ÊÍµÄĞ´·¨
+æ³¨é‡Šçš„å†™æ³•
 
 /* Footer */
-ÄÚÈİÇø
+å†…å®¹åŒº
 /* End Footer */
 
-idµÄÃüÃû
-ÈİÆ÷: container
-Ò³Í·£ºheader
-ÄÚÈİ£ºcontent/container
-Ò³ÃæÖ÷Ìå£ºmain
-Ò³Î²£ºfooter
-µ¼º½£ºnav
-²àÀ¸£ºsidebar
-À¸Ä¿£ºcolumn
-Ò³ÃæÍâÎ§¿ØÖÆÕûÌå²¼¾Ö¿í¶È£ºwrapper
-×óÓÒÖĞ£ºleft right center
+idçš„å‘½å
+å®¹å™¨: container
+é¡µå¤´ï¼šheader
+å†…å®¹ï¼šcontent/container
+é¡µé¢ä¸»ä½“ï¼šmain
+é¡µå°¾ï¼šfooter
+å¯¼èˆªï¼šnav
+ä¾§æ ï¼šsidebar
+æ ç›®ï¼šcolumn
+é¡µé¢å¤–å›´æ§åˆ¶æ•´ä½“å¸ƒå±€å®½åº¦ï¼šwrapper
+å·¦å³ä¸­ï¼šleft right center
 
 
-idµÄÃüÃû
+idçš„å‘½å
 
-Ò³Ãæ½á¹¹
+é¡µé¢ç»“æ„
 
-ÈİÆ÷: container
-Ò³Í·£ºheader
-ÄÚÈİ£ºcontent/container
-Ò³ÃæÖ÷Ìå£ºmain
-Ò³Î²£ºfooter
-µ¼º½£ºnav
-²àÀ¸£ºsidebar
-À¸Ä¿£ºcolumn
-Ò³ÃæÍâÎ§¿ØÖÆÕûÌå²¼¾Ö¿í¶È£ºwrapper
-×óÓÒÖĞ£ºleft right center
+å®¹å™¨: container
+é¡µå¤´ï¼šheader
+å†…å®¹ï¼šcontent/container
+é¡µé¢ä¸»ä½“ï¼šmain
+é¡µå°¾ï¼šfooter
+å¯¼èˆªï¼šnav
+ä¾§æ ï¼šsidebar
+æ ç›®ï¼šcolumn
+é¡µé¢å¤–å›´æ§åˆ¶æ•´ä½“å¸ƒå±€å®½åº¦ï¼šwrapper
+å·¦å³ä¸­ï¼šleft right center
 
-µ¼º½
+å¯¼èˆª
 
-µ¼º½£ºnav
-Ö÷µ¼º½£ºmainbav
-×Óµ¼º½£ºsubnav
-¶¥µ¼º½£ºtopnav
-±ßµ¼º½£ºsidebar
-×óµ¼º½£ºleftsidebar
-ÓÒµ¼º½£ºrightsidebar
-²Ëµ¥£ºmenu
-×Ó²Ëµ¥£ºsubmenu
-±êÌâ: title
-ÕªÒª: summary
+å¯¼èˆªï¼šnav
+ä¸»å¯¼èˆªï¼šmainbav
+å­å¯¼èˆªï¼šsubnav
+é¡¶å¯¼èˆªï¼štopnav
+è¾¹å¯¼èˆªï¼šsidebar
+å·¦å¯¼èˆªï¼šleftsidebar
+å³å¯¼èˆªï¼šrightsidebar
+èœå•ï¼šmenu
+å­èœå•ï¼šsubmenu
+æ ‡é¢˜: title
+æ‘˜è¦: summary
 
-¹¦ÄÜ
-±êÖ¾£ºlogo
-¹ã¸æ£ºbanner
-µÇÂ½£ºlogin
-µÇÂ¼Ìõ£ºloginbar
-×¢²á£ºregsiter
-ËÑË÷£ºsearch
-¹¦ÄÜÇø£ºshop
-±êÌâ£ºtitle
-¼ÓÈë£ºjoinus
-×´Ì¬£ºstatus
-°´Å¥£ºbtn
-¹ö¶¯£ºscroll
-±êÇ©Ò³£ºtab
-ÎÄÕÂÁĞ±í£ºlist
-ÌáÊ¾ĞÅÏ¢£ºmsg
-µ±Ç°µÄ: current
-Ğ¡¼¼ÇÉ£ºtips
-Í¼±ê: icon
-×¢ÊÍ£ºnote
-Ö¸ÄÏ£ºguild
-·şÎñ£ºservice
-ÈÈµã£ºhot
-ĞÂÎÅ£ºnews
-ÏÂÔØ£ºdownload
-Í¶Æ±£ºvote
-ºÏ×÷»ï°é£ºpartner
-ÓÑÇéÁ´½Ó£ºlink
-°æÈ¨£ºcopyright 
-ÁªÏµÎÒÃÇ£º contact
+åŠŸèƒ½
+æ ‡å¿—ï¼šlogo
+å¹¿å‘Šï¼šbanner
+ç™»é™†ï¼šlogin
+ç™»å½•æ¡ï¼šloginbar
+æ³¨å†Œï¼šregsiter
+æœç´¢ï¼šsearch
+åŠŸèƒ½åŒºï¼šshop
+æ ‡é¢˜ï¼štitle
+åŠ å…¥ï¼šjoinus
+çŠ¶æ€ï¼šstatus
+æŒ‰é’®ï¼šbtn
+æ»šåŠ¨ï¼šscroll
+æ ‡ç­¾é¡µï¼štab
+æ–‡ç« åˆ—è¡¨ï¼šlist
+æç¤ºä¿¡æ¯ï¼šmsg
+å½“å‰çš„: current
+å°æŠ€å·§ï¼štips
+å›¾æ ‡: icon
+æ³¨é‡Šï¼šnote
+æŒ‡å—ï¼šguild
+æœåŠ¡ï¼šservice
+çƒ­ç‚¹ï¼šhot
+æ–°é—»ï¼šnews
+ä¸‹è½½ï¼šdownload
+æŠ•ç¥¨ï¼švote
+åˆä½œä¼™ä¼´ï¼špartner
+å‹æƒ…é“¾æ¥ï¼šlink
+ç‰ˆæƒï¼šcopyright 
+è”ç³»æˆ‘ä»¬ï¼š contact

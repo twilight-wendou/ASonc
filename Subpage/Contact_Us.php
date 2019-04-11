@@ -20,7 +20,6 @@
 <?php include_once('../HTML/head.html'); ?>
 <!-- 引入单独样式文件 -->
 <link rel="stylesheet" href="./CSS/contact_us.css">
-<!-- <link rel="stylesheet" href="./CSS/xxx.css" type="text/css" media="All"> -->
 
 
 <!-- 引入头部文件 header -->
@@ -28,7 +27,11 @@
 
 
 <!-- 引入单独HTML文件 body -->
+<<<<<<< HEAD
+<!-- <?php include_once('../HTML/contact_us.html'); ?> -->
+=======
 <?php include_once('../HTML/contact_us.html'); ?>
+>>>>>>> 45263ed335607e9b9ea60231931945ced6d20c49
 
 
 <!-- 引入脚部文件 footer -->
