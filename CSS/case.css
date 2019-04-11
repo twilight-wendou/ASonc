@@ -8,15 +8,19 @@ ul{
     padding: 0;
 }
 .container{
-    height: 1330px;
+    height: 1685px;
     background-color: #f8f8f8;
+}
+.banner{
+    width: 100%;
+    height: 359px;
 }
 .case-content{
     max-width: 1200px;
     width: 100%;
    height: 100%;
     margin: 0 auto;
-    border: 1px solid red;
+    overflow: hidden;
 }
 
 .case-top{
@@ -90,7 +94,7 @@ text-decoration: none;
 .company-list-show ul li:hover{
     border-bottom:2px solid  #46959d;
 }
-.company-lis-btnleft,.company-list-btnright{
+.company-list-btnleft,.company-list-btnright{
     width: 32px;
     height: 54px;
     background-color:#eeeeee;
@@ -98,7 +102,7 @@ text-decoration: none;
     justify-content: center;
     align-items: center;
 }
-.company-lis-btnleft{
+.company-list-btnleft{
     margin-right: 5px;
 }
 .company-list-btnright{
@@ -108,13 +112,40 @@ text-decoration: none;
     color: #c7c7c7;
    font-size:30px;
 }
-.company-lis-btnleft:hover .fa-angle-left,.company-list-btnright:hover .fa-angle-right{
+.company-list-btnleft:hover .fa-angle-left,.company-list-btnright:hover .fa-angle-right{
     color: #d1e4e6;
 }
-.company-lis-btnleft:hover,.company-list-btnright:hover{
+.company-list-btnleft:hover,.company-list-btnright:hover{
     background-color: #46959d;
 }
+.case-project-list{
+    margin-left: 22%;
+    width: 77%;
+    height: 939px;
+}
+.case-project-list ul{
+    width: 78.3%;
+    height: 100%;
+    margin: 0 auto;
+}
+.case-project-list ul li{
+    width: 100%;
+    height: 436px;
+   margin-top: 19px;
+   text-align: center;
+   color: #9e9e9e;
+   font-size: 18px;
+   line-height: 27px;
+}
+.case-project-list ul li img{
+    height: 91.5%;
+    width: 100%;
+ 
+}
 @media(max-width:1200px){
+    .container{
+        height: 1210px;
+    }
     .case-top{
         /* width: 500px; */
         /* background-color:red;  */
@@ -130,18 +161,35 @@ text-decoration: none;
     .company-list{
 height: 200px;
         }
+    .case-project-list ul li{
+        height: 300px;
+        font-size: 14px;
+    }
+    .banner{
+        height: 250px;
+    }
 }
 
 @media(max-width:568px){
+    .container{
+        height: 900px;
+    }
         .case-top{
            font-size: 7px;
             height: 20px;
         }
         .case-top span{
             line-height: 20px;
+            margin: 0 auto;
             }
-        .case-top-right span{
-                font-size: 6px;
-           
+        .case-top-right{
+                display: none;
             }  
+        .case-project-list ul li{
+                height: 200px;
+                font-size: 6px;
+            }
+        .banner{
+                height: 150px;
+            }
 }
