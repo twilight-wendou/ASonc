@@ -16,7 +16,8 @@
 </head>
 <body>
 <div class="container">
-     <img src="../Images/case_list/list-banner.png" alt="" class="banner">
+      <div class="wow bounceInUp animated" data-wow-duration="2000ms" data-wow-delay="1">
+            <img src="../Images/case_list/list-banner.png" alt="" class="banner">
     <div class="case-content">
          <div class="case-top">
             <span>项目案例</span> 
@@ -48,16 +49,20 @@
                <li><img src="../Images/case_list/case-05.png" alt="">现场安装效果图</li>
             </ul>
           </div>
-        
-        </div>
+      </div>
+ </div>
 </div>
  <!-- JS -->
- <script src="./JS/JQuery_v3.3.1.js"></script>
+ <script src="../JS/JQuery_v3.3.1.js"></script>
  <!-- <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script> -->
- <script src="./JS/wow.min.js"></script>
+ <script src="../JS/wow.min.js"></script>
  <script src="https://cdn.bootcss.com/popper.js/1.14.7/umd/popper.min.js"></script>
- <script src="./BootStrap_4.2.1/JS/bootstrap_v4.2.1.js"></script>
- <script src="../JS/case.js"></script>
+ <script src="../BootStrap_4.2.1/JS/bootstrap_v4.2.1.js"></script>
+ <script src="../JS/case.js">
+ if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+    new WOW().init();
+}
+ </script>
  <!-- <script src="https://cdn.bootcss.com/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script> -->
 
  <!-- 自定义JS -->
