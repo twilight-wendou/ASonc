@@ -27,11 +27,7 @@
 
 
 <!-- 引入单独HTML文件 body -->
-<<<<<<< HEAD
-<!-- <?php include_once('../HTML/contact_us.html'); ?> -->
-=======
 <?php include_once('../HTML/contact_us.html'); ?>
->>>>>>> 45263ed335607e9b9ea60231931945ced6d20c49
 
 
 <!-- 引入脚部文件 footer -->
