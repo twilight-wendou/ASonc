@@ -10,8 +10,6 @@
 ?>
 
 
-<!-- 路径基址 -->
-<base href="./">
 <!-- 网页名 -->
 <title>ASonc</title>
 
