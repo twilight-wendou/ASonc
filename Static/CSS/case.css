@@ -1,15 +1,16 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #f8f8f8;
 }
 ul{
     list-style: none;
     margin: 0;
     padding: 0;
 }
-.container{
+#container{
     height: 1685px;
-    background-color: #f8f8f8;
+    margin-top: 56px;
 }
 .banner{
     width: 100%;
@@ -143,7 +144,7 @@ text-decoration: none;
  
 }
 @media(max-width:1200px){
-    .container{
+    #container{
         height: 1210px;
     }
     .case-top{
@@ -171,7 +172,7 @@ height: 200px;
 }
 
 @media(max-width:568px){
-    .container{
+    #container{
         height: 900px;
     }
         .case-top{
