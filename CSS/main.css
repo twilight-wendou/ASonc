@@ -25,9 +25,9 @@
 
 
 /* 导航栏CSS */
-   #TopNav nav.navbar-default .navbar-nav  a.nav-link {
+   #TopNav nav.navbar-light .navbar-nav  a.nav-link {
       color: #666;
    }
-   #TopNav nav.navbar-default .navbar-nav  a.nav-link:hover {
+   #TopNav nav.navbar-light .navbar-nav  a.nav-link:hover {
       color: #46959d;
    }
