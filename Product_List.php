@@ -25,7 +25,7 @@
 
 
 <!-- 引入单独HTML文件 body -->
-<!-- <?php include_once('./View/product_list.html'); ?> -->
+<?php include_once('./View/product_list.html'); ?> 
 
 
 <!-- 引入脚部文件 footer -->
