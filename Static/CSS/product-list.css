@@ -22,35 +22,40 @@ ul {
     margin-top: 56px;
     position: relative;
 }
-.list-banner img{
-    width: 100%;    
+
+.list-banner img {
+    width: 100%;
     height: 100%;
 }
-.active-words{
+
+.active-words {
     height: 30%;
     width: 408px;
-   position: absolute;
-   top: 50%;
-  margin-top: -3%;
-   left: 50%;
- margin-left: -204px;
- 
+    position: absolute;
+    top: 50%;
+    margin-top: -3%;
+    left: 50%;
+    margin-left: -204px;
+
 
 }
-.active-words-first{
+
+.active-words-first {
     font-size: 18px;
     color: #9e9e9e;
     margin-bottom: 0px;
     width: 100%;
 }
-.active-words-last{
+
+.active-words-last {
     font-size: 34px;
     color: #46959d;
     margin-bottom: 0px;
     margin-top: -1%;
     width: 100%;
-    
+
 }
+
 .case-content {
     max-width: 1200px;
     width: 100%;
@@ -122,7 +127,7 @@ ul {
     color: #9e9e9e;
     background-color: #e7e7e7;
     text-align: center;
-    line-height: 30px;
+    line-height: 45px;
 }
 
 .product-list ul li img {
@@ -159,18 +164,19 @@ ul {
 .fa-angle-right {
     margin-right: 5%;
 }
+
 .fa-angle-left:hover,
-.fa-angle-right:hover,.product-list-btn span:hover{
+.fa-angle-right:hover,
+.product-list-btn span:hover {
     color: #46959d;
-} 
+}
+
 @media(max-width:1200px) {
     .list-banner {
         height: 250px;
     }
 
     .case-top {
-        /* width: 500px; */
-        /* background-color:red;  */
         font-size: 12px;
         height: 30px;
     }
@@ -183,46 +189,46 @@ ul {
         font-size: 11px;
     }
 
-    /* .product-list ul li{
-            height: 390px;
-        } */
-     #container{
-            height: 1800px;
-        }
-    .active-words-first{
+    #container {
+        height: 1800px;
+    }
+
+    .active-words-first {
         font-size: 12px;
     }
-    .active-words-last{
+
+    .active-words-last {
         font-size: 20px;
     }
-    .active-words{
-       left: 55%;
+
+    .active-words {
+        left: 55%;
     }
 }
 
 @media(max-width:720px) {
-    #container{
+    #container {
         height: 1800px;
     }
+
     .product-list ul li {
         width: 46.9%;
     }
 
-    /* .product-list ul li{
-        height: 285px;
-    } */
-    .product-list-btn{
+    .product-list-btn {
         margin-top: 37px;
     }
-    .active-words{
-        display:none;
+
+    .active-words {
+        display: none;
     }
 }
 
 @media(max-width:568px) {
-    #container{
+    #container {
         height: 1640px;
     }
+
     .list-banner {
         height: 150px;
     }
@@ -253,7 +259,8 @@ ul {
     .fa-angle-right {
         margin-right: 0;
     }
-    .product-list-btn{
+
+    .product-list-btn {
         margin-top: 0px;
     }
 }
