@@ -1,0 +1,54 @@
+/* 全局默认CSS设置 */
+   /* 标题字体设置 */
+   h1, h2, h3, h4, h5, h6{
+      font-family: "Microsoft YaHei",微软雅黑;
+   }
+   /* 主标题设置 */
+   h1 {
+      font-size: 50px;
+      font-weight: bold;
+   }
+
+   /* 变绿 */
+   a.lv:hover, * .lvse {
+      color: #46959d;
+   }
+   /* 黑变深 */
+   a.bh:hover, #foot a.list-group-item-light:hover  {
+      color: #444;
+   }
+
+
+/* 导航栏CSS */
+   #TopNav nav.navbar-light .navbar-nav  a.nav-link {
+      color: #666;
+   }
+   #TopNav nav.navbar-light .navbar-nav  a.nav-link:hover {
+      color: #46959d;
+   }
+
+/* 底部 */
+   #foot .row p {
+      font-size: 12px;
+   }
+   #foot .row p+.lvse {
+      font-size: 14px   ;
+   }
+   #foot .row h6+p {
+      height: 40px;
+      line-height: 20px;
+   }
+   /* 最底部字体大小 */
+   #foot footer {
+      font-size: 12px;
+   }
+   /* 字体图标设置 */
+   #foot footer .zt a {
+      font-size: 20px;
+      color: #aaa;
+      border-color: #aaa !important;
+   }
+   #foot footer .zt a:hover {
+      color: #444;
+      border-color: #444 !important;
+   }
