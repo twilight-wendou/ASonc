@@ -103,6 +103,7 @@
 
 
 @media (max-width:576px){
+    /* 大图 */
     .big-bg{
         margin-top:56px; 
     }
@@ -120,10 +121,12 @@
     .img-text h2{
         font-size: 24px;
     }
+    /* 主要内容字体 */
     .us-main h3{
          font-size: 24px; 
          margin-top:10px; 
     }
+    /* 微信 */
     .relation .weix{
         position: static;
         margin: 0 auto;
