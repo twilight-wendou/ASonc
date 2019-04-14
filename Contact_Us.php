@@ -17,7 +17,7 @@
 <!-- 引入头文件 head -->
 <?php include_once('./View/head.html'); ?>
 <!-- 引入单独样式文件 -->
-<link rel="stylesheet" href="./CSS/contact_us.css">
+<link rel="stylesheet" href="./Static/CSS/contact_us.css">
 <!-- <link rel="stylesheet" href="./CSS/case.css"> -->
 
 <!-- 引入头部文件 header -->
