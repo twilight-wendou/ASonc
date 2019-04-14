@@ -11,7 +11,7 @@
 
    /* 变绿 */
    a.lv:hover, * .lvse {
-      color: #46959d;
+      color: #46959d !important;
    }
    /* 黑变深 */
    a.bh:hover, #foot a.list-group-item-light:hover  {
@@ -49,6 +49,6 @@
       border-color: #aaa !important;
    }
    #foot footer .zt a:hover {
-      color: #444;
-      border-color: #444 !important;
+      color: #46959d;
+      border-color: #46959d !important;
    }
