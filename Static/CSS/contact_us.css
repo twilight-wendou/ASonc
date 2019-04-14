@@ -1,0 +1,100 @@
+.flex-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-al{
+    display: flex;
+    align-items: center;
+}
+
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex-around{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.wa{
+
+}
+.wa-9{
+    max-width: 900px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* 公用 */
+
+大图
+.img-text{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    text-align: center;
+}
+.img-text span{
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    height: 2px;
+    background: #46959d;
+}
+
+
+
+
+
+
+.us-main{
+    /* padding: 5% 0; */
+    /* width: 100%; */
+    background-color:#f8f8f8;
+}
+
+.us-main h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: #545454;
+}
+.us-main h5{
+    font-size: 16px;
+}
+.form-box {
+    
+}
+
+.form-box {
+    
+}
+.relation{
+    width: 350px;
+
+}
+.map{
+    width: 100%;
+    height: 500px;
+
+}
+/* 表单 */
+
+.form-box form{
+    max-width: 300px;
+}
+.form_bg{
+    background-color: #46959d;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border: 0;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+
+@media (max-width:800px){
+   
+}
