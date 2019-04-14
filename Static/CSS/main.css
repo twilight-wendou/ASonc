@@ -23,6 +23,10 @@
       color: #444;
    }
 
+   #foot a.list-group-item-light:hover {
+      color: #444;
+   }
+
 
 /* 导航栏CSS */
    #TopNav nav.navbar-light .navbar-nav  a.nav-link {
@@ -30,4 +34,32 @@
    }
    #TopNav nav.navbar-light .navbar-nav  a.nav-link:hover {
       color: #46959d;
+   }
+
+/* 脚部 */
+   #foot .row p {
+      font-size: 12px;
+   }
+
+   #foot .row p+.lvse {
+      font-size: 14px   ;
+   }
+
+   #foot .row h6+p {
+      height: 40px;
+      line-height: 20px;
+   }
+
+   #foot footer {
+      font-size: 12px;
+   }
+
+   #foot footer .zt a {
+      font-size: 20px;
+      color: #aaa;
+      border-color: #aaa !important;
+   }
+   #foot footer .zt a:hover {
+      color: #444;
+      border-color: #444 !important;
    }
