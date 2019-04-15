@@ -1,16 +1,16 @@
-.partner .sidebar_big {
+.partner #sidebar_big {
     background-color: #ffffff;
 }
 
-.partner .sidebar_big .list-group .lh-condensed {
+.partner #sidebar_big .list-group .lh-condensed {
     background-color: #46959d;
     color: #ffffff;
 }
 
-.partner .sidebar_big .sidebar_01 {
+.partner #sidebar_big .sidebar_01 {
     border: 1px solid rgb(248, 248, 248);
 }
 
-.partner .sidebar_big .sidebar_02 {
+.partner #sidebar_big .sidebar_02 {
     border: 1px solid rgb(248, 248, 248);
 }
