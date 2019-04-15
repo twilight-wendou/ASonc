@@ -1,0 +1,135 @@
+/* 大图 */
+.img-text{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    text-align: center;
+}
+.img-text span{
+    display: block;
+    margin: 20px auto;
+    width: 40px;
+    height: 2px;
+    background: #46959d;
+}
+.img-text h3{
+    font-size: 26px;
+    color: #484848;
+}
+.img-text h2{
+    font-size: 48px;
+    color: #46959d;;
+    letter-spacing:27px;
+}
+
+
+
+/* 外框 */
+.wa-9{
+    max-width: 900px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* 内容字体 */
+.us-main{
+    /* padding: 5% 0; */
+    /* width: 100%; */
+    background-color:#f8f8f8;
+}
+.us-main{
+    font-size: 12px;
+    color: #777777;
+}
+.us-main h3,.us-main h5,.us-main h4{
+    font-weight: 600;
+    color: #545454;
+}
+.us-main h4{
+    font-size: 20px;
+}
+.us-main h5{
+    font-size: 16px;
+}
+
+/* 表单 */
+.form-box {
+    margin-right: 50px;
+}
+.form-box form{
+    max-width: 300px;
+    
+}
+.form-box input{
+    height: 30px;
+}
+.form_bg{
+    background-color: #46959d;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border: 0;
+    border-radius: 3px;
+    color: #ffffff;
+}
+.form-box .form-group{
+    margin-bottom: 5px;
+}
+/* 联系方式 */
+.relation .media-list>.media{
+  margin: 26px 0;
+}
+.relation{
+    position: relative;
+}
+.relation .weix{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 125px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+/* 地图 */
+.map{
+    width: 810px;
+    height: 260px;
+    margin-top: 0;
+
+}
+
+
+
+@media (max-width:576px){
+    /* 大图 */
+    .big-bg{
+        margin-top:56px; 
+    }
+    .big-bg img{
+        height: 180px;
+    }
+   .map{
+       width: 100%;
+       overflow: hidden;
+   }
+   .img-text h3{
+    font-size: 18px;
+    color: #484848;
+    }
+    .img-text h2{
+        font-size: 24px;
+    }
+    /* 主要内容字体 */
+    .us-main h3{
+         font-size: 24px; 
+         margin-top:10px; 
+    }
+    /* 微信 */
+    .relation .weix{
+        position: static;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+}

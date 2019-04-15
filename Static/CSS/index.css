@@ -1,0 +1,14 @@
+/* 首页主体CSS设置 */
+
+/* 简易动画 */
+   /* 右移>符 */
+   .add_gt::after{
+      content: ">";
+      font-weight: 600;
+      position: relative;
+      left: 6px;
+      transition: .5s;
+   }
+   .add_gt:hover::after {
+      left: 12px;
+   }
