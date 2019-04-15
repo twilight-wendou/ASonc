@@ -25,7 +25,8 @@
 
 
 <!-- 引入单独HTML文件 body -->
-<!-- <?php include_once('./View/xxx.html'); ?> -->
+<?php //echo '<link rel="stylesheet" href="./Static/CSS/Product_Details.css">' ?>
+<!-- <?php include_once('./View/Product_Details.html'); ?> -->
 
 
 <!-- 引入脚部文件 footer -->

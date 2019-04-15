@@ -17,7 +17,7 @@
 <!-- 引入头文件 head -->
 <?php include_once('./View/head.html'); ?>
 <!-- 引入单独样式文件 -->
-<link rel="stylesheet" href="./CSS/contact_us.css">
+<link rel="stylesheet" href="./Static/CSS/contact_us.css">
 <!-- <link rel="stylesheet" href="./CSS/case.css"> -->
 
 <!-- 引入头部文件 header -->
@@ -26,12 +26,6 @@
 
 <!-- 引入单独HTML文件 body -->
 <?php include_once('./View/contact_us.html'); ?>
-<!-- 引入js -->
-<script src="../JS/case.js">
-   if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
-      new WOW().init();
-   }
-</script>
 
 
 <!-- 引入脚部文件 footer -->
