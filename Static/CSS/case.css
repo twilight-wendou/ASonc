@@ -12,6 +12,7 @@ ul{
     width: 100vw;
     height: 1685px;
     margin-top: 56px;
+    padding: 0px 0px;
 }
 .case-banner{
     width: 100%;
@@ -56,8 +57,29 @@ ul{
    height: 100%;
     margin: 0 auto;
     overflow: hidden;
+    position: relative;
 }
-
+/* 侧边栏 */
+#partner{
+    position: absolute;
+   left: 0;
+    margin-top: 42px;
+    width: 20%;
+    }
+    .partner .sidebar_big {
+        background-color: #ffffff;
+    }
+    .partner .sidebar_big .list-group .lh-condensed {
+        background-color: #46959d;
+        color: #ffffff;
+    } 
+    .partner  .sidebar_big  .sidebar_01{
+        border:  1px solid #ccc;
+    }
+    .partner  .sidebar_big .sidebar_02{
+        border:  1px solid #ccc;
+    } 
+    
 .case-top{
     width: 77%;
     height: 63px;
@@ -183,6 +205,7 @@ text-decoration: none;
         /* background-color:red;  */
         font-size: 12px;
         height: 30px;
+        margin: 42px auto 0px;
     }
     .case-top span{
         line-height: 30px;
@@ -192,6 +215,10 @@ text-decoration: none;
         }  
     .company-list{
 height: 200px;
+margin: 18px auto 0px;
+        }
+        .case-project-list{
+            margin: 18px  auto 0px;
         }
     .case-project-list ul li{
         height: 300px;
@@ -210,6 +237,9 @@ height: 200px;
     
     .active-words {
         left: 55%;
+    }
+    #partner{
+        display: none;
     }
 }
 
