@@ -26,12 +26,6 @@
 
 <!-- 引入单独HTML文件 body -->
 <?php include_once('./View/contact_us.html'); ?>
-<!-- 引入js -->
-<script src="../JS/case.js">
-   if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
-      new WOW().init();
-   }
-</script>
 
 
 <!-- 引入脚部文件 footer -->
