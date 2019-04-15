@@ -25,7 +25,7 @@
 
 
 <!-- 引入单独HTML文件 body -->
-<!-- <?php include_once('./View/xxx.html'); ?> -->
+<?php include_once('./View/partner.html'); ?>
 
 
 <!-- 引入脚部文件 footer -->

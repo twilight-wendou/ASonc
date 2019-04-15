@@ -1,0 +1,52 @@
+body{
+    background-color: #eee;
+}
+.nbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.nbox h4{
+    margin: 0;
+    text-indent: 1rem;
+}
+.nbox nav{
+    background-color: #fff;
+    font-size: 12px;
+    margin: 0;
+}
+.cont{
+    margin-top: 30px;
+}
+.cont img{
+    width: 100%;
+}
+ul,ol{
+    list-style: none;
+    padding: 0;
+}
+
+
+.pd_banner{
+    margin-top:55px; 
+    position: relative;
+    
+}
+.pd_banner div {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+.active-words-first {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 0px;
+}
+.active-words-last {
+    font-size: 28px;
+    color: #46959d;
+    margin-bottom: 0px;
+}
