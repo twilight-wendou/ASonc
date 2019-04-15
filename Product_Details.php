@@ -18,14 +18,14 @@
 <?php include_once('./View/head.html'); ?>
 <!-- 引入单独样式文件 -->
 <!-- <link rel="stylesheet" href="./CSS/xxx.css" type="text/css" media="All"> -->
-
+<link rel="stylesheet" href="./Static/CSS/Product_Details.css">
 
 <!-- 引入头部文件 header -->
 <?php include_once('./View/header.html'); ?>
 
 
 <!-- 引入单独HTML文件 body -->
-<?php //echo '<link rel="stylesheet" href="./Static/CSS/Product_Details.css">' ?>
+
 <!-- <?php include_once('./View/Product_Details.html'); ?> -->
 
 
