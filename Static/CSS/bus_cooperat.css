@@ -5,28 +5,53 @@ body{
 }
 .wrap{
     width: 100%;
-    height: 3930px;
+    /* height: 3930px; */
     margin-bottom: 50px;
     background: #f8f8f8;
     margin-bottom: 0;
     border-bottom: 1px solid #efefef;
     
 }
-.bannar{
+.bannar,.bannar img{
     height: 350px;
 }
-.bannar img{
-    height: 350px;
-}
+
 .bus-main{
     margin-bottom: 15px;
-    color: #fff;
+    color: #000;
 }
+
+/* 侧边栏 */
+#partner{
+    position: absolute;
+    left: 0px;
+    margin-top: 42px;
+    width: 20%;
+}
+.partner .sidebar_big {
+    background-color: #ffffff;
+    margin-top: 40px;
+    height: 560px;
+}
+.partner .sidebar_big .list-group .lh-condensed {
+    background-color: #46959d;
+    color: #ffffff;
+} 
+.partner  .sidebar_big  .sidebar_01{
+    border:  1px solid #ccc;
+}
+.partner  .sidebar_big .sidebar_02{
+    border:  1px solid #ccc;
+} 
+.list-group{
+    list-style: none;
+}
+    
 .bus-top{
-    width: 77%;
+    /* width: 100%; */
     height: 63px;
     background-color: #fff;
-    margin-left: 22%;
+
     margin-top:42px;
     font-size: 28px;
     display: flex;
@@ -58,11 +83,11 @@ body{
     color: #9e9e9e;
 }
 .bus-botton{
-    width: 77%;
+    /* width: 77%; */
     overflow: hidden;
     background-color: #fff;
-    margin-left: 22%;
     margin-top:42px;
+    margin-bottom: 30px;
     font-size: 28px;
 }
 .bus-bott-main{
