@@ -1,0 +1,60 @@
+
+/* 大图 */
+#brand .img-text{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 17%;
+    top: 60%;
+    text-align: center;
+}
+#brand .img-text span{
+    display: block;
+    margin: 20px auto;
+    width: 40px;
+    height: 2px;
+    background: #46959d;
+}
+#brand .img-text h3{
+    color: #666;
+    font-size: 18px;
+}
+#brand .img-text h2{
+    font-size: 26px;
+    color: #46959d;;
+    
+}
+#brand .alert{
+    background: #fff;
+    margin-top: 14px;
+    max-width: 891px;
+    font-size: 14px;
+}
+#brand .alert h3{
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
+#brand .alert .alert-heading{
+    margin-top: 60px;
+    margin-bottom: 15px;
+    color: #666;
+}
+#brand .alert p{
+    margin-top: 23px;
+}
+@media (max-width:576px){
+    /* 大图 */
+    #brand .big-bg{
+        margin-top:56px; 
+    }
+    #brand .big-bg img{
+        height: 180px;
+    }
+   #brand .img-text h3{
+    font-size: 18px;
+    color: #484848;
+    }
+    #brand .img-text h2{
+        font-size: 24px;
+    }
+}
