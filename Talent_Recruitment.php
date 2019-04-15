@@ -12,12 +12,12 @@
 
 
 <!-- 网页名 -->
-<title>ASonc Talent Recruitment</title>
+<title>人才招聘</title>
 
 <!-- 引入头文件 head -->
 <?php include_once('./View/head.html'); ?>
 <!-- 引入单独样式文件 -->
-<!-- <link rel="stylesheet" href="./CSS/xxx.css" type="text/css" media="All"> -->
+<link rel="stylesheet" href="./static/CSS/recruitment.css" type="text/css" media="All">
 
 
 <!-- 引入头部文件 header -->
@@ -25,7 +25,7 @@
 
 
 <!-- 引入单独HTML文件 body -->
-<!-- <?php include_once('./View/xxx.html'); ?> -->
+<!-- <?php include_once('./View/recruitment.html'); ?> -->
 
 
 <!-- 引入脚部文件 footer -->
