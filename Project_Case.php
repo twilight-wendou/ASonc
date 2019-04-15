@@ -1,0 +1,33 @@
+<?php
+/*
+ * @Author: Twilight 
+ * @Date: 2019-04-08 14:25:32 
+ * @Last Modified by:   Twilight 
+ * @Last Modified time: 2019-04-08 14:25:32 
+ */
+// 艾森项目案例 页面
+
+   header("content-type: text/html; charset=utf8");/* 头文件设置 */
+?>
+
+
+<!-- 网页名 -->
+<title>ASonc Project Case</title>
+
+<!-- 引入头文件 head -->
+<?php include_once('View/head.html'); ?>
+<!-- 引入单独样式文件 -->
+<link rel="stylesheet" href="./Static/CSS/case.css" type="text/css" media="All">
+
+
+<!-- 引入头部文件 header -->
+<?php include_once('View/header.html'); ?>
+
+
+<!-- 引入单独HTML文件 body -->
+<?php include_once('View/case.html'); ?>
+
+
+<!-- 引入脚部文件 footer -->
+<?php include_once('View/foot.html'); ?>
+<script src="./Static/JS/case.js"></script>

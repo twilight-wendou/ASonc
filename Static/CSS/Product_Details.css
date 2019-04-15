@@ -1,0 +1,30 @@
+body{
+    background-color: #eee;
+}
+.nbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.nbox h4{
+    margin: 0;
+    text-indent: 1rem;
+}
+.nbox nav{
+    background-color: #fff;
+    font-size: 12px;
+    margin: 0;
+}
+.cont{
+    margin-top: 80px;
+}
+.cont img{
+    width: 100%;
+}
+ul,ol{
+    list-style: none;
+    padding: 0;
+}
