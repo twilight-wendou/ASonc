@@ -11,9 +11,10 @@ ul {
 }
 
 #container {
-    width: 100vw;
+    padding: 0px;
     height: 1940px;
     background-color: #f8f8f8;
+  
 }
 
 .list-banner {

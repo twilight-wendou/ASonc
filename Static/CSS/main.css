@@ -4,10 +4,10 @@
       font-family: "Microsoft YaHei",微软雅黑;
    }
    /* 主标题设置 */
-   h1 {
+   /* h1 {
       font-size: 50px;
       font-weight: bold;
-   }
+   } */
 
    /* 变绿 */
    a.lv:hover, * .lvse {
