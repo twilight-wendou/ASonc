@@ -15,14 +15,14 @@
 <title>品牌简介</title>
 
 <!-- 引入头文件 head -->
-<?php include('./View/head.html'); ?>
+<?php include('./View/Common/head.html'); ?>
 <!-- 引入单独样式文件 -->
 <link rel="stylesheet" href="./static/CSS/recruitment.css" type="text/css" media="All">
 <link rel="stylesheet" href="./Static/CSS/brand.css" type="text/css" media="All">
 
 
 <!-- 引入头部文件 header -->
-<?php include('./View/header.html'); ?>
+<?php include('./View/Common/Common/header.html'); ?>
 
 
 <!-- 引入单独HTML文件 body -->
@@ -30,4 +30,4 @@
 
 
 <!-- 引入脚部文件 footer -->
-<?php include_once('./View/foot.html'); ?>
+<?php include_once('./View/Common/foot.html'); ?>

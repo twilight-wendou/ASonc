@@ -1,4 +1,4 @@
-// JS主文件
+// 初始化JS文件
 
    /* 顶部导航栏高度 */
    $(document).ready(function () {/* 页面加载 */

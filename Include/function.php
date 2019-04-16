@@ -1,3 +1,4 @@
+<!-- 函数库文件 设置 -->
 <?php
    
    // 测试函数
@@ -5,9 +6,6 @@
       echo '<pre>';
       print_r($con);
       echo '</pre>';
-   }
-   function ieo($con) {
-      echo $con.'<br>';
    }
 
    
@@ -22,13 +20,20 @@
    }
 
    // MySQL查询函数
-   function Mysql_cat($sql) {
+   function getAll($sql) {/* 获取所有数据 */
       $list = array();                 
       $result = mysql_query($sql);                 /* 执行SQL语句 获取结果集 */
       if($result && mysql_num_rows($result)>0)     /* 判断结果集有没数据 */   
          while($row = mysql_fetch_assoc($result))  /* 遍历获取结果 */
             $list[] = $row;
       return $list;
+   }
+   function getOne($sql) {/* 获取一条数据 */
+      $result = mysql_query($sql);                 /* 执行SQL语句 获取结果集 */
+      if($result && mysql_num_rows($result)>0)     /* 判断结果集有没数据 */   
+         return mysql_fetch_assoc($result);     /* 获取一个结果 */
+      else
+         return array();
    }
 
    // MySQL增删改 操作函数
