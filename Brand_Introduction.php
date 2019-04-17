@@ -22,7 +22,7 @@
 
 
 <!-- 引入头部文件 header -->
-<?php include('./View/Common/Common/header.html'); ?>
+<?php include('./View/Common/header.html'); ?>
 
 
 <!-- 引入单独HTML文件 body -->
