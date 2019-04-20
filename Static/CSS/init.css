@@ -1,0 +1,18 @@
+/* 初始化CSS设置 */
+   /* 标题字体设置 */
+   h1, h2, h3, h4, h5, h6{
+      font-family: "Microsoft YaHei",微软雅黑;
+   }
+   /* 主标题设置 */
+   /* h1 {
+      font-size: 50px !important;
+   } */
+
+   /* 变绿 */
+   a.lv:hover, * .lvse {
+      color: #46959d !important;
+   }
+   /* 黑变深 */
+   a.bh:hover, #foot a.list-group-item-light:hover  {
+      color: #444;
+   }

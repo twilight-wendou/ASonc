@@ -1,5 +1,8 @@
-/* FontAwesome_v5.7.2 */
-.fa,.fab,.fal,.far,.fas {
+.fa,
+.fab,
+.fal,
+.far,
+.fas {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 	display: inline-block;
@@ -100,11 +103,19 @@
 	float: right
 }
 
-.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left {
+.fa.fa-pull-left,
+.fab.fa-pull-left,
+.fal.fa-pull-left,
+.far.fa-pull-left,
+.fas.fa-pull-left {
 	margin-right: .3em
 }
 
-.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right {
+.fa.fa-pull-right,
+.fab.fa-pull-right,
+.fal.fa-pull-right,
+.far.fa-pull-right,
+.fas.fa-pull-right {
 	margin-left: .3em
 }
 
@@ -150,15 +161,23 @@
 	transform: scaleY(-1)
 }
 
-.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical,.fa-flip-vertical {
+.fa-flip-both,
+.fa-flip-horizontal.fa-flip-vertical,
+.fa-flip-vertical {
 	-ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)"
 }
 
-.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical {
+.fa-flip-both,
+.fa-flip-horizontal.fa-flip-vertical {
 	transform: scale(-1)
 }
 
-:root .fa-flip-both,:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-90,:root .fa-rotate-180,:root .fa-rotate-270 {
+:root .fa-flip-both,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical,
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270 {
 	filter: none
 }
 
@@ -171,7 +190,8 @@
 	width: 2.5em
 }
 
-.fa-stack-1x,.fa-stack-2x {
+.fa-stack-1x,
+.fa-stack-2x {
 	left: 0;
 	position: absolute;
 	text-align: center;
@@ -5592,7 +5612,7 @@
 
 .sr-only {
 	border: 0;
-	clip: rect(0,0,0,0);
+	clip: rect(0, 0, 0, 0);
 	height: 1px;
 	margin: -1px;
 	overflow: hidden;
@@ -5601,7 +5621,8 @@
 	width: 1px
 }
 
-.sr-only-focusable:active,.sr-only-focusable:focus {
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
 	clip: auto;
 	height: auto;
 	margin: 0;
@@ -5611,16 +5632,16 @@
 }
 
 @font-face {
-   font-family:"Font Awesome 5 Brands";
-   font-style:normal;
-   font-weight:normal;
-   font-display:auto;
-   src:url(../webfonts/fa-brands-400.eot);
-   src:url(../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),
-      url(../webfonts/fa-brands-400.woff2) format("woff2"),
-      url(../webfonts/fa-brands-400.woff) format("woff"),
-      url(../webfonts/fa-brands-400.ttf) format("truetype"),
-      url(../webfonts/fa-brands-400.svg#fontawesome) format("svg")
+	font-family: "Font Awesome 5 Brands";
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url(../webfonts/fa-brands-400.eot);
+	src: url(../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),
+		url(../webfonts/fa-brands-400.woff2) format("woff2"),
+		url(../webfonts/fa-brands-400.woff) format("woff"),
+		url(../webfonts/fa-brands-400.ttf) format("truetype"),
+		url(../webfonts/fa-brands-400.svg#fontawesome) format("svg")
 }
 
 .fab {
@@ -5628,16 +5649,16 @@
 }
 
 @font-face {
-   font-family:"Font Awesome 5 Free";
-   font-style:normal;
-   font-weight:400;
-   font-display:auto;
-   src:url(../webfonts/fa-regular-400.eot);
-   src:url(../webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),
-      url(../webfonts/fa-regular-400.woff2) format("woff2"),
-      url(../webfonts/fa-regular-400.woff) format("woff"),
-      url(../webfonts/fa-regular-400.ttf) format("truetype"),
-      url(../webfonts/fa-regular-400.svg#fontawesome) format("svg")
+	font-family: "Font Awesome 5 Free";
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url(../webfonts/fa-regular-400.eot);
+	src: url(../webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),
+		url(../webfonts/fa-regular-400.woff2) format("woff2"),
+		url(../webfonts/fa-regular-400.woff) format("woff"),
+		url(../webfonts/fa-regular-400.ttf) format("truetype"),
+		url(../webfonts/fa-regular-400.svg#fontawesome) format("svg")
 }
 
 .far {
@@ -5645,22 +5666,25 @@
 }
 
 @font-face {
-   font-family:"Font Awesome 5 Free";
-   font-style:normal;
-   font-weight:900;
-   font-display:auto;
-   src:url(../webfonts/fa-solid-900.eot);
-   src:url(../webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),
-      url(../webfonts/fa-solid-900.woff2) format("woff2"),
-      url(../webfonts/fa-solid-900.woff) format("woff"),
-      url(../webfonts/fa-solid-900.ttf) format("truetype"),
-      url(../webfonts/fa-solid-900.svg#fontawesome) format("svg")
+	font-family: "Font Awesome 5 Free";
+	font-style: normal;
+	font-weight: 900;
+	font-display: auto;
+	src: url(../webfonts/fa-solid-900.eot);
+	src: url(../webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),
+		url(../webfonts/fa-solid-900.woff2) format("woff2"),
+		url(../webfonts/fa-solid-900.woff) format("woff"),
+		url(../webfonts/fa-solid-900.ttf) format("truetype"),
+		url(../webfonts/fa-solid-900.svg#fontawesome) format("svg")
 }
 
-.fa,.far,.fas {
+.fa,
+.far,
+.fas {
 	font-family: "Font Awesome 5 Free"
 }
 
-.fa,.fas {
+.fa,
+.fas {
 	font-weight: 900
 }
